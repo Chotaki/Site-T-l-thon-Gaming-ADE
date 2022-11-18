@@ -28,3 +28,11 @@ p{
     border-radius: 50%;
 }
 
+#streamers{
+    max-height: 100vh;
+}
+
+#streamers img{
+    height: 150px;
+    border-radius: 50%;
+}
