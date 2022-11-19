@@ -28,11 +28,24 @@ p{
     border-radius: 50%;
 }
 
-#streamers{
-    max-height: 100vh;
+#streamers .row{
+    height: 60vh;
+}
+
+#streamers p{
+    font-size: medium;
 }
 
 #streamers img{
     height: 150px;
     border-radius: 50%;
+}
+
+#streamers .carousel{
+    margin-top: 15px;
+    height: 60vh;
+}
+
+#streamers .carousel img{
+    height: 400px;
 }
