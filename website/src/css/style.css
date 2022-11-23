@@ -169,7 +169,9 @@ p{
 /* FOOTER */
 
 .footer{
-    background-color: #7464A6
+    background-color: #7464A6;
+    vertical-align: middle;
+    padding-top: 10px;
 }
 
 .position{
@@ -191,6 +193,7 @@ p{
 
 h3{
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .footer h3, h4{
@@ -209,4 +212,3 @@ h3{
 .img_size{
     width: 500px;
 }
-
