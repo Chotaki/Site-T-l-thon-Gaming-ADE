@@ -25,14 +25,32 @@ p{
     font-size:24px;
 }
 
-.logo{
+/* NAV */
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    transition: top 0.5s;
+}
+
+.logo_ade{
     width: 50px;
 }
+
+.logo_telethon{
+    width: 100px;
+}
+
+/* DESC */
 
 .telethon-icon{
     height: 300px;
     border-radius: 50%;
 }
+
+/* PROGRAMME */
 
 .size img{
     width: 1080px;
@@ -105,3 +123,8 @@ h3{
     font-size: small;
     padding: 7px;
 }
+
+.img_size{
+    width: 500px;
+}
+
