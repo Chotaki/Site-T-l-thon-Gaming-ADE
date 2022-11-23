@@ -69,3 +69,39 @@ p{
     height: 100px;
     font-size: 50px;
 }
+
+/* FOOTER */
+
+.footer{
+    background-color: rgba(221, 63, 63, .2);
+}
+
+.position{
+    padding: 20px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer p{
+    margin-bottom: 0;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.small-text{
+    background-color: rgba(221, 63, 63, 0.371);
+}
+
+.small-text p{
+    font-size: small;
+    padding: 7px;
+}
