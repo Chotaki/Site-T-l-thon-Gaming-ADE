@@ -4,6 +4,8 @@
     src: url("../fonts/arial_nova.woff") format('woff');
 }
 
+/* GENERAL MODS */
+
 body {
     font-family: arialNova;
 }
@@ -23,10 +25,20 @@ p{
     font-size:24px;
 }
 
+.logo{
+    width: 50px;
+}
+
 .telethon-icon{
     height: 300px;
     border-radius: 50%;
 }
+
+.size img{
+    width: 1080px;
+}
+
+/* STREAMERS */
 
 #streamers .row{
     height: 60vh;
@@ -48,4 +60,12 @@ p{
 
 #streamers .carousel img{
     height: 400px;
+}
+
+/* DONATE BUTTON */
+
+.btn-size{
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
 }
