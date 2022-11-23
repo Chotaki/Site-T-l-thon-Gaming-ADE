@@ -8,6 +8,8 @@
 
 body {
     font-family: arialNova;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -33,6 +35,15 @@ p{
     top: 0;
     z-index: 999;
     transition: top 0.5s;
+}
+
+.row{
+    width: 100%;
+}
+
+.row .links{
+    display: flex;
+    justify-content: center;
 }
 
 .logo_ade{
