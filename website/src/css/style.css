@@ -8,6 +8,10 @@
 
 body {
     font-family: arialNova;
+    margin: 0;
+    padding: 0;
+    color: #7464A6;
+    background-color: #151d32;
 }
 
 .container {
