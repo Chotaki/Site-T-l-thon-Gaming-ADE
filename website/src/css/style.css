@@ -47,11 +47,6 @@ p{
     width: 100%;
 }
 
-.row .links{
-    display: flex;
-    justify-content: center;
-}
-
 .navbar-collapse{
     flex-grow: 0;
 }
