@@ -48,21 +48,24 @@
       
     <section id="stream" class="container text-center">
         <h1 class="fw-bold ade_pink">ADE x TÉLÉTHON GAMING 2022</h1>
-
-        <!-- Add a placeholder for the Twitch embed -->
-        <div id="twitch-embed"></div>
-        <!-- Load the Twitch embed JavaScript file -->
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
-        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-        <script type="text/javascript">
-        new Twitch.Embed("twitch-embed", {
-            width: 854,
-            height: 480,
-            channel: "monstercat",
-            // Only needed if this page is going to be embedded on other websites
-            parent: ["embed.example.com", "othersite.example.com"]
-        });
-        </script>
+      <div class=" align-items-center text-center">
+        <div class="col">
+          <!-- Add a placeholder for the Twitch embed -->
+          <div class="dimension" id="twitch-embed"></div>
+          <!-- Load the Twitch embed JavaScript file -->
+          <script src="https://embed.twitch.tv/embed/v1.js"></script>
+          <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+          <script type="text/javascript">
+          new Twitch.Embed("twitch-embed", {
+              height : 480,
+              width : 880,
+              channel: "monstercat",
+              // Only needed if this page is going to be embedded on other websites
+              parent: ["embed.example.com", "othersite.example.com"]
+          });
+          </script>
+        </div>
+      </div>
     </section>
 
     <section id="telethon" class="container TELETHON">
@@ -71,7 +74,7 @@
           <div class="col col-lg-5 offset-1">
             <img src="img/icon.png" class="telethon-icon">
           </div>
-          <div class="col col-lg-6">
+          <div class="col col-lg-6 col-md-12">
             <p>Le <span style="color:#D04065">Téléthon Gaming</span>, c'est 48 heures de stream sur Twitch et YouTube au profit de l'AFM Téléthon. 
             L'entièreté des donations est remise à l'association à la fin des deux jours de stream, et certains de ces streamers ont même des donations goals, 
             qui sont des petits défis que le streamer choisit et aura à réaliser une fois l'objectif de donations atteint. Le Téléthon existe depuis 1987 et
