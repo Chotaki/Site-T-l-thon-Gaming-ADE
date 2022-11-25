@@ -63,6 +63,11 @@ p{
     width: 100px;
 }
 
+#navbar li:hover{
+    background-color: #D04065;
+    border-radius: 7px;
+}
+
 /* DESC */
 
 .telethon-icon{
@@ -163,7 +168,7 @@ p{
 
 .btn-color{
     color: #212529;
-    background-color: #7464A6;
+    background-color: #D04065;
     font-weight: bold;
 }
 
