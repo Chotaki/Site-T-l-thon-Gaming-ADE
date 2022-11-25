@@ -106,19 +106,20 @@ p{
 
 #streamers .carousel{
     margin-top: 15px;
-    height: 300px;
+
 }
 
 #streamers .carousel img{
-    height: 200px;
-    width: 200px;
+    width: 100%;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .carousel-inner {
     padding: 1em;
-  }
-  .card {
+}
+
+.card {
     margin: 0 0.5em;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
@@ -137,7 +138,7 @@ p{
   @media (min-width: 768px) {
     .carousel-item {
       margin-right: 0;
-      flex: 0 0 33.333333%;
+      flex: 0 0 20%;
       display: block;
     }
     .carousel-inner {
@@ -145,10 +146,12 @@ p{
     }
   }
   .card .img-wrapper {
-      max-width: 100%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-left: 20%;
+      padding-right: 20%;
   }
   .card img {
       max-height: 100%;
@@ -160,10 +163,6 @@ p{
   }
 #streamers .carousel{
     margin-top: 15px;
-}
-
-#streamers .carousel img{
-    height: 200px;
 }
 
 .btn-color{
@@ -188,6 +187,11 @@ p{
 .btn a{
     color: #7464A6;
     text-decoration: none;
+}
+
+.btn:hover{
+    color: #7464A6;
+    content: "Twitch" !important;
 }
 
 /* FOOTER */

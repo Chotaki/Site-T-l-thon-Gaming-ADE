@@ -10,6 +10,7 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
+/* Carousel */
 var multipleCardCarousel = document.querySelector(
   "#carouselExampleControls"
 );
