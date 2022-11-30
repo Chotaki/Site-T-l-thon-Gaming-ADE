@@ -16,20 +16,25 @@ var multipleCardCarousel = document.querySelector(
 );
 if (window.matchMedia("(min-width: 768px)").matches) {
   var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-    interval: false,
+    interval: false 
   });
   var carouselWidth = $(".carousel-inner")[0].scrollWidth;
-  var cardWidth = $(".carousel-item").width();
+  var cardWidth = $(".streamer-card").width();
   var scrollPosition = 0;
   $("#carouselExampleControls .carousel-control-next").on("click", function () {
-    if (scrollPosition < carouselWidth - cardWidth * 4) {
+//next();
+    console.log(scrollPosition);
+    console.log(cardWidth * 94 - carouselWidth)
+    if (scrollPosition <  cardWidth * 98 - carouselWidth ) {
+      
       scrollPosition += cardWidth;
       $("#carouselExampleControls .carousel-inner").animate(
         { scrollLeft: scrollPosition },
         600
       );
     }
-  });
+    }
+  );
   $("#carouselExampleControls .carousel-control-prev").on("click", function () {
     if (scrollPosition > 0) {
       scrollPosition -= cardWidth;
