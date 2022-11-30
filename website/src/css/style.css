@@ -131,18 +131,17 @@ p{
     padding-bottom: 15px;
 }
 
-.carousel-inner {
+#streamer .carousel-inner {
     padding: 1em;
 }
 
-.card {
+#streamer .card {
     margin: 0 0.5em;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
     width: 200px;
   }
-  .carousel-control-prev,
-  .carousel-control-next {
+#streamer .carousel-control-prev, .carousel-control-next {
     background-color: #7464A6;
     width: 50px;
     height: 50px;
@@ -152,7 +151,7 @@ p{
   }
 
   @media (min-width: 768px) {
-    .carousel-item {
+    .carousel-item-streamer {
       margin-right: 0;
       flex: 0 0 20%;
       display: block;
@@ -161,7 +160,7 @@ p{
       display: flex;
     }
   }
-  .card .img-wrapper {
+  #streamer .card .img-wrapper {
       width: 100%;
       display: flex;
       justify-content: center;
@@ -169,7 +168,7 @@ p{
       padding-left: 20%;
       padding-right: 20%;
   }
-  .card img {
+  #streamer .card img {
       max-height: 100%;
   }
   @media (max-width: 767px) {
