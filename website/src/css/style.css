@@ -97,6 +97,10 @@ p{
     width: 100%;
 }
 
+#programme li button{
+    color: #D04065;
+}
+
 /* STREAMERS */
 
 #streamers .row{
