@@ -23,8 +23,9 @@ if (window.matchMedia("(min-width: 768px)").matches) {
   var scrollPosition = 0;
   $("#carouselExampleControls .carousel-control-next").on("click", function () {
     console.log(scrollPosition);
-    console.log(cardWidth * 94 - carouselWidth)
-    if (scrollPosition <  cardWidth * 99 - carouselWidth ) {
+    console.log(carouselWidth)
+    console.log(cardWidth * 99)
+    if (scrollPosition <  carouselWidth - cardWidth * 5) {
       
       scrollPosition += cardWidth;
       $("#carouselExampleControls .carousel-inner").animate(
